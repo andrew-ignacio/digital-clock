@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Digital-7;
+  src: url(../fonts/digital-7.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#clock {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Digital-7, sans-serif;
+  background-color: #212121;
+  color: chartreuse;
+}
+
+span {
+  font-size: 5em;
+  letter-spacing: 5px;
+}
